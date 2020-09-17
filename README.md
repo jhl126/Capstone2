@@ -1,1 +1,1 @@
-# Capstone2
+# Predicting and Analyzing Telecom Churn Rates
