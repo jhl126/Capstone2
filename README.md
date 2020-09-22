@@ -18,4 +18,10 @@ A total of 4 different classification models were used to predict the customer c
 
 Each model was initially executed without SelectKBest or PCA. Once results were obtained, SelectKBest with K = 15 was applied to each model, then SelectKBest with K = 10, and then finally PCA.
 
-### Results of the Classification Models
+### The Best Classification Model
+
+Although the models all had their own pros and cons, I believe the KNearestNeighbor with SelectKBest of K = 10 model had the best performance. The KNN Classification model had the most well rounded scores for both precision and recall. Other models were able to successfully predict true positives or true negatives, however they often ended up favoring one over the other. The KNN model, on the other hand, happened to have a high success rate for determining both true positives **and** true negatives. 
+
+### Improvements and Final Thoughts
+
+One area that I know can be focused on for improvements is looking more into bias within the data. Adding feature importances to each of my models would help to visualize whether one feature outweighed another. I could also make some slight changes to my classification report and confusion matrices to help make them more understandable. Overall, this was a very enjoyable first supervised learning project and I am looking forward to not only improving this project, but also working on many more. 
