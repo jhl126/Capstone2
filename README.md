@@ -15,3 +15,5 @@ A total of 4 different classification models were used to predict the customer c
 3) Random Forest Classifier
 
 4) Gradient Boosted Classifier. 
+
+Each model was initially executed without SelectKBest or PCA. Once results were obtained, SelectKBest with K = 15 was applied to each model, then SelectKBest with K = 10, and then finally PCA.
